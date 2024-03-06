@@ -18,3 +18,8 @@ spec:
       containers:
         - image: nginx
           name: nginx
+      resources:
+        requests:
+          cpu: "250m"
+        limits:
+          cpu: "500m"
